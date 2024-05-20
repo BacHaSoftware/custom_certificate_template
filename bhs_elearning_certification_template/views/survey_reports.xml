@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- QWeb Reports -->
+        <record id="bhs_certification_report" model="ir.actions.report">
+            <field name="name">BHS-Certifications</field>
+            <field name="model">survey.user_input</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">bhs_elearning_certification_template.bhs_certification_report_view</field>
+            <field name="report_file">bhs_elearning_certification_template.bhs_certification_report_view</field>
+            <field name="print_report_name">'Certification - %s' % (object.survey_id.display_name)</field>
+            <field name="attachment">'certification.pdf'</field>
+            <field name="binding_model_id" ref="survey.model_survey_user_input"/>
+            <field name="binding_type">report</field>
+            <field name="paperformat_id" ref="survey.paperformat_survey_certification"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "merriweather-italic";
+    src: url("/bhs_elearning_certification_template/static/src/fonts/Merriweather-Italic.ttf");
+}
+
+@font-face {
+    font-family: "merriweather-regular";
+    src: url("/bhs_elearning_certification_template/static/src/fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins-italic";
+    src: url("/bhs_elearning_certification_template/static/src/fonts/Poppins-Italic.ttf");
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url("/bhs_elearning_certification_template/static/src/fonts/Poppins-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "greatvibes-regular";
+    src: url("/bhs_elearning_certification_template/static/src/fonts/GreatVibes-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: Lobster;
+    src: url("/bh_custom_certification_template/static/src/fonts/Lobster-Regular.ttf") format("truetype");
+}
+
+
+
+#o_survey_certification.certification-wrapper {
+    // Change font survey_name
+    .certification-name-rep {
+        font-family: Arial;
+        font-size: 18pt;
+        line-height: 1.5;
+        text-transform: uppercase;
+        color: #282f33;
+    }
+    // BHS Certificate Template
+    &.bhs {
+        .certification {
+            background-image: url("/bhs_elearning_certification_template/static/src/img/certification_bg_bhs.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 295mm;
+            height: 208mm;
+            margin: 1mm;
+            color: #875A7B;
+            padding-top: 70pt;
+
+            .certification-top {
+//                 padding-top: 50mm;
+
+                h1 {
+                    font-size: 48pt;
+                    font-weight: bold;
+                    color: #546F39;
+                    font-family: "merriweather-regular";
+                    font-weight: bold;
+                }
+                h2 {
+                    font-size: 24pt;
+                    color: #D5AE3A;
+                    font-family: "merriweather-italic";
+                }
+
+                &:before {
+                    margin-bottom: 10mm;
+                }
+
+                &:after {
+                    -webkit-transform: scaleY(-1);
+                    transform: scaleY(-1);
+                    margin-bottom: 5mm;
+                }
+            }
+            .certification-content {
+                margin-bottom: 10mm;
+                p{
+                    color: #546F39;
+                }
+                .user-name {
+                    color: #D5AE3A;
+                    border-bottom: none;
+                    font-size: 64pt;
+                    font-family: "greatvibes-regular";
+                }
+                .sub-content{
+                    width: 500pt;
+                    font-size: 14pt;
+                    display: block;
+                    word-wrap: break-word;
+                    text-align: justify;
+                    margin-left: 60mm;
+                    font-family: "poppins-italic";
+                    font-style: italic;
+                }
+            }
+
+            .certification-bottom {
+                width: 295mm;
+                bottom: 20mm;
+
+                .certification-date-wrapper {
+                    margin-left: 40mm;
+                    font-size: 18pt;
+                    color: #6b6d70;
+
+                    span {
+                        display:none;
+                        font-size: 18pt;
+                    }
+
+                }
+
+                .certification-seal {
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50% , -50%);
+                    transform: translate(-50% , -50%);
+                    width: 24mm;
+                    height: 24mm;
+                    background: url(/survey/static/src/img/classic-seal.png) no-repeat;
+                }
+
+                .certification-company {
+                    padding-left: 10mm;
+                    right: 35mm;
+                }
+            }
+
+            .certification-number{
+                margin-left: 50mm;
+            }
+        }
+    }
+}
