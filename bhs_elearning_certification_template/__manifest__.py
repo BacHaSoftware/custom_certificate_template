@@ -12,7 +12,7 @@
     'summary': 'Custom eLearning Certification Template',
     'description': "A product of Bac Ha Software provides additional options for certificate templates.",
     'images': ['static/description/banner.png'],
-    'depends': ['survey'],
+    'depends': ['survey','website_slides'],
     'data': [
         'views/survey_report_templates.xml',
     ],
