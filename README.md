@@ -55,16 +55,9 @@ Please contact us if you are looking for a solution for customizing your certifi
 🌟 <code>Customize Certificate Template</code>: Customize the certificate template according to your company's template, making your certificate more eye-catching and professional.
 
 <div align="left">
-    <div align="center"><code>Refuse applicant</code></div>
-    <a href="https://github.com/BacHaSoftware/custom_certificate_template">
-        <img src="/bhs_elearning_certification_template/static/description/imgs/screen/applicant.png" alt="Setting">
-    </a>
-</div>
-
-<div align="left">
     <div align="center"><code>Contact of this applicant is archived</code></div>
     <a href="https://github.com/BacHaSoftware/custom_certificate_template">
-        <img src="/bhs_elearning_certification_template/static/description/imgs/screen/contact.png" alt="Setting">
+        <img src="/bhs_elearning_certification_template/static/description/imgs/screen/template.png" alt="Template">
     </a>
 </div>
 
@@ -135,7 +128,7 @@ Project Link: [https://github.com/BacHaSoftware/custom_certificate_template](htt
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-url]: https://github.com/BacHaSoftware/custom_certificate_template/blob/17.0/LICENSE.txt
+[license-url]: https://github.com/BacHaSoftware/custom_certificate_template/blob/18.0/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/bac-ha-software
 [website-shield]: https://img.shields.io/badge/-website-black.svg?style=for-the-badge&logo=website&colorB=555
