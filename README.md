@@ -55,7 +55,7 @@ Please contact us if you are looking for a solution for customizing your certifi
 🌟 <code>Customize Certificate Template</code>: Customize the certificate template according to your company's template, making your certificate more eye-catching and professional.
 
 <div align="left">
-    <div align="center"><code>Contact of this applicant is archived</code></div>
+    <div align="center"><code>Customize Certificate Template</code></div>
     <a href="https://github.com/BacHaSoftware/custom_certificate_template">
         <img src="/bhs_elearning_certification_template/static/description/imgs/screen/template.png" alt="Template">
     </a>
